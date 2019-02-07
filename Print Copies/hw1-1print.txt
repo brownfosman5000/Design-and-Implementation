@@ -1,3 +1,4 @@
+; Foster Brown CISC 3140
 ; This program is a four function calcutor
 
 ; Define function calculator that takes in 2 numbers and an operation symbol
