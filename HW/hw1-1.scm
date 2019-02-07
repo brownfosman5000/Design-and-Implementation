@@ -1,0 +1,25 @@
+; This program is a four function calcutor
+
+; Define function calculator that takes in 2 numbers and an operation symbol
+(define calculator (
+	lambda(num1 num2 op) 
+		(op  num1 num2 )
+	)
+)
+
+
+; Tests to show that calculator is working properly
+(display "1 + 2 = ")
+(display (calculator 1 2 +))  (newline)
+
+
+(display "1 * 2 = ")
+(display (calculator 1 2 *)) (newline)
+
+
+(display "20 / 2 = ")
+(display (calculator 20 2 /)) (newline)
+
+
+(display "5 - 2 s ")
+(display (calculator 5 2 -)) (newline)
